@@ -132,3 +132,23 @@ svg,img { max-width: 100%; height: auto; }
 
 
 }
+.ds-about-section {
+    text-align: center; /* متن وسط */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* همه المان‌ها وسط */
+    justify-content: center; /* وسط‌چین عمودی (اختیاری) */
+}
+
+.ds-about-section img {
+    margin: 0 auto; /* عکس وسط */
+    max-width: 100%; /* جلوگیری از بیرون زدن عکس */
+    height: auto;
+}
+
+.ds-about-section p,
+.ds-about-section h2,
+.ds-about-section h3 {
+    text-align: center; /* همه تیترها و پاراگراف‌ها وسط */
+}
+
